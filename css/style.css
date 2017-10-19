@@ -1,0 +1,143 @@
+	
+
+	body{
+		/*background-color:gray;*/
+		background-image: url("2.jpg");
+	
+	}
+	.main{
+		height: 400px;
+		width: 1400px;
+		margin-top: 50px;
+	}
+	.box{
+		width: 200%;
+		height: 400px;
+		box-shadow: 0 0 5px 1px white;
+		transition: all 1s;
+		
+	}
+	.box:hover{
+		width: 180%;
+		height: 350px;
+		margin-top: 2.5%;
+		margin-left: 2.5%;
+	}
+	.box img{
+		width:100%;
+		z-index: 1;
+		height: 100%;
+	}
+	.box a{
+		text-decoration: none;
+		outline: none;
+	}
+	.lable{
+		width: 100%;
+		height: 40px;
+		background-color: black;
+		z-index: 10;
+		position: relative;
+		color: #F7EC3E;
+		font-weight: bolder;
+		text-align: center;
+		font-size: 18px;
+		padding-top:4px;
+		margin-top: -40px;
+	}
+	nav{
+		width: 100%;
+		height: 50px;
+		position: fixed;
+		background-color:rgb(237, 237, 237);
+	}
+	.link{
+		width: 100px;
+		height: inherit;
+		float: left;
+		text-align: center;
+		font-weight: bolder;
+		font-size: 14px;
+		padding-top: 13px;
+		color: black;
+	}
+	.link a{
+		color: black;
+		text-decoration: none;
+	}
+	a:link {
+    color: blue;
+	}
+
+	/* visited link */
+	/* a:visited {
+		color: black;
+	}
+	*/
+	/* mouse over link */
+	a:hover {
+		color: white;
+	}
+
+	/* selected link */
+	a:active {
+		color: blue;
+	}
+	ul.a {
+    list-style-type: circle;
+	}
+
+	ul.b {
+		list-style-type: square;
+	}
+
+	ol.c {
+		list-style-type: upper-roman;
+	}
+
+	ol.d {
+		list-style-type: lower-alpha;
+	}
+	.three-line{
+		width: 100%;
+		margin-left: 0px;
+		position: static;
+	}
+	.heading{
+		width: 100%;
+		height: 70px;
+		padding-top: 5px;
+		text-align:center;
+		font-size: 35px;
+		font-weight: bolder;
+		background-color: #99D3DF;
+		color: white;
+	}
+	.content{
+		background-color: #88BBD6;
+		padding: 60px 40px 60px 40px;
+		color: white;
+		font-family: "Times New Roman", Times, serif;
+		font-size: 20px;
+		font-weight: bolder;
+		
+	}
+	h2 {
+		text-decoration: italics;
+		font-size: 20px;
+	}
+	h3 {
+		text-decoration: underline;
+	}
+	h4 {
+    word-spacing: 3px;
+	}
+
+	h5 {
+		word-spacing: -3px;
+	}
+	table, th, td {
+		border: 3px solid white;
+		font-size: 20px;
+		width: 1110px;
+	}
